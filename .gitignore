@@ -1,0 +1,26 @@
+# Ignore File Type
+*.exe
+*.obj
+*.un~
+*.pdb
+*.cache
+*.swp
+
+# Ignore template file
+c-template.c
+
+# Ignore Directory
+*/bin
+*/bin/Debug
+*/bin/Release
+*/obj/Debug
+
+# Windows special files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# bin/debug, bin/release
+*/bin/
+*/gen/
+*/out/

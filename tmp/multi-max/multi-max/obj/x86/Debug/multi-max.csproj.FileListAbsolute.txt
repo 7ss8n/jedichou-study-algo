@@ -1,0 +1,5 @@
+D:\temp\jcutil\multi-max\multi-max\bin\Debug\multi-max.exe
+D:\temp\jcutil\multi-max\multi-max\bin\Debug\multi-max.pdb
+D:\temp\jcutil\multi-max\multi-max\obj\x86\Debug\multi-max.exe
+D:\temp\jcutil\multi-max\multi-max\obj\x86\Debug\multi-max.pdb
+D:\temp\jcutil\multi-max\multi-max\obj\x86\Debug\multi-max.csprojResolveAssemblyReference.cache
