@@ -1,0 +1,16 @@
+Program BooleanVars;
+#include ("stdlib.hhf")
+
+static
+	BoolVar:boolean;
+	HasClass:boolean := false;
+	IsClear:boolean := true;
+
+begin BooleanVars;
+
+	// Output Boolean variables
+	stdout.put("BoolVar : ", BoolVar, nl);
+	stdout.put("HasClass: ", HasClass, nl);
+	stdout.put("IsClear : ", IsClear, nl);
+
+end BooleanVars;

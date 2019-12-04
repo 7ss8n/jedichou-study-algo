@@ -1,0 +1,29 @@
+// Code from AOACN.pdf of page 38(56/794).
+// Code list 1-9
+//   Demo of nested try...endtry comment.
+
+program testBadInput2;
+#include ("stdlib.hhf");
+
+static u: int32;
+
+begin testBadInput2;
+
+	try
+	
+		try
+			stdout.put("Enter a signed integer:");
+			stdin.get(u);
+			stdout.put("You entered:", u, nl);
+		exception(ex.ConversionError)
+			stdout.put("You input contained illegal character", nl);
+		endtry;	
+
+		stdout.put("Input did not fail due to a value out of range", nl);
+	
+	exception(ex.ValueOutOfRange)
+		stdout.put("The value was too large", nl);
+
+	endtry;
+
+end testBadInput2;

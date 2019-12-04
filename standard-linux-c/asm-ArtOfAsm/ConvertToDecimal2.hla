@@ -1,0 +1,14 @@
+// program 2-3 hex to decimal without variable
+// from aoa page 58
+// 2015-11-12 13:05
+
+program ConvertToDecimal2;
+#include ("stdlib.hhf")
+
+begin ConvertToDecimal2;
+	stdout.put("Input a hexadecimal value: ");
+	stdin.get(ebx);
+	stdout.put("The value $", ebx, "converted to deciaml is ");
+	stdout.puti32(ebx);
+	stdout.newln();
+end ConvertToDecimal2;

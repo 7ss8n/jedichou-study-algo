@@ -1,0 +1,17 @@
+// Code from AOACN.pdf of 57(75/794)
+// Code list 2-1
+//   Convert number to Hex
+
+program ConverToHex;
+#include("stdlib.hhf");
+
+static value: int32;
+
+begin ConverToHex;
+
+	stdout.put("Input a decimal value:");
+	stdin.get(value);
+	mov(value, eax);
+	stdout.put("Input Value:", value, " Hex Value:", eax, nl);
+
+end ConverToHex;

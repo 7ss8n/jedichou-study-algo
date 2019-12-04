@@ -1,0 +1,23 @@
+﻿Build started 2016/1/26 下午 03:20:04.
+     1>Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo9-StackSemantics\Demo9-StackSemantics.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Demo9-StackSemantics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /TP /analyze- /errorReport:prompt Geometry.cpp main.cpp /d1clr:nostdlib 
+         Geometry.cpp
+         main.cpp
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo9-StackSemantics.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Demo9-StackSemantics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo9-StackSemantics.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Geometry.obj
+         Debug\main.obj
+         Demo9-StackSemantics.vcxproj -> D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo9-StackSemantics.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo9-StackSemantics.exe;#1" /manifest "Debug\Demo9-StackSemantics.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Demo9-StackSemantics.unsuccessfulbuild".
+         Touching "Debug\Demo9-StackSemantics.lastbuildstate".
+     1>Done Building Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo9-StackSemantics\Demo9-StackSemantics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

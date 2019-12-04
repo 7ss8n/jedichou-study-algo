@@ -1,0 +1,14 @@
+program h;
+#include ("stdlib.hhf");
+
+static  
+	bytevar: byte;
+	q: qword;
+	l: lword;
+	i64: int64;
+	i128: int128;
+
+begin h;
+	stdout.put(stdio.bell);
+	stdout.put($8000);
+end h;

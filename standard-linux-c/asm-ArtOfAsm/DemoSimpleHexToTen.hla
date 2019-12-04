@@ -1,0 +1,16 @@
+// Code from AOACN.pdf of page 58(76/794)
+// Code list 2-3
+//   Convert hex to decimal without variables.
+
+program ConvertToDecimalWithoutVar;
+#include("stdlib.hhf");
+
+begin ConvertToDecimalWithoutVar;
+
+	stdout.put("Input a hexadecimal value:");
+	stdin.get(ebx);
+	stdout.put("The value $", ebx, " converted to decimal is ");
+	stdout.puti32(ebx);
+	stdout.newln();
+
+end ConvertToDecimalWithoutVar;

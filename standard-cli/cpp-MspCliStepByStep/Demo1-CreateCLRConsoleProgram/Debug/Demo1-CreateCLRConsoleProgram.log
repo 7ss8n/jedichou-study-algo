@@ -1,0 +1,36 @@
+﻿Build started 2016/1/26 下午 03:20:07.
+     1>Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo1-CreateCLRConsoleProgram\Demo1-CreateCLRConsoleProgram.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Demo1-CreateCLRConsoleProgram.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         d:\tool\vs2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Demo1-CreateCLRConsoleProgram.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         d:\tool\vs2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Demo1-CreateCLRConsoleProgram.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "Demo1-CreateCLRConsoleProgram.cpp" "demo1-reademe.cpp" /clr:nostdlib 
+         AssemblyInfo.cpp
+         Demo1-CreateCLRConsoleProgram.cpp
+         demo1-reademe.cpp
+         Generating Code...
+         d:\tool\vs2010\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         d:\tool\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo1-CreateCLRConsoleProgram.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Demo1-CreateCLRConsoleProgram.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo1-CreateCLRConsoleProgram.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         "Debug\Demo1-CreateCLRConsoleProgram.obj"
+         "Debug\demo1-reademe.obj"
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Demo1-CreateCLRConsoleProgram.vcxproj -> D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo1-CreateCLRConsoleProgram.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo1-CreateCLRConsoleProgram.exe;#1" /manifest "Debug\Demo1-CreateCLRConsoleProgram.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Demo1-CreateCLRConsoleProgram.unsuccessfulbuild".
+         Touching "Debug\Demo1-CreateCLRConsoleProgram.lastbuildstate".
+     1>Done Building Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo1-CreateCLRConsoleProgram\Demo1-CreateCLRConsoleProgram.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28

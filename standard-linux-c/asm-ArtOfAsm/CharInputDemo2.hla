@@ -1,0 +1,29 @@
+// From AOACN.pdf, Page 95
+// Program list 2-11. Demo of char input use by stdin.get
+
+program CharInputDemo2;
+#include("stdlib.hhf");
+
+static
+	c: char;
+
+begin CharInputDemo2;
+
+	stdout.put("Enter a character:");
+	stdin.get(c);
+
+	if ( c >= 'a' ) then
+		if ( c <= 'z' ) then
+			and($5f, c);
+		endif;
+	endif;
+
+	stdout.put
+	(
+		"The character you entered, possibly ", nl,
+		"convered to upper case, was ' ",
+		c,
+		" ' ", nl
+	);
+
+end CharInputDemo2;

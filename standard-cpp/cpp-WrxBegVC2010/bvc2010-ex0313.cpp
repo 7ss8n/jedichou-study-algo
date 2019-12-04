@@ -1,0 +1,32 @@
+// File: bvc2010-ex0313.cpp
+// Demonstrating nested loops to compute factorials
+
+#include <iostream>
+
+using std::cin;
+using std::cout;
+using std::endl;
+
+int main() {
+	
+	// define variables
+	char indicator('n');
+	long value(0L), factorial(0L);
+
+	// process
+	do {
+		cout << endl << "Enter an integer value: ";
+		cin >> value;
+
+		factorial = 1L;
+		for( long i = 2L; i <= value; i++)
+			factorial *= i;
+
+		cout << "Factorial " << value << " is " << factorial;
+		cout << endl << "Do you want to enter another value (y or n)?";
+		cin >> indicator;
+	} while ( ('y' == indicator) || ('Y' == indicator) );
+
+	// quit program
+	return 0;
+}

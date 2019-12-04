@@ -1,0 +1,31 @@
+// Code from AOACN.pdf of page 32(50/794).
+// Use stdout.put to set print width.
+
+program NumsInColumns2;
+#include ("stdlib.hhf");
+
+var
+	i32:	int32;
+	ColCnt:	int8;
+
+begin NumsInColumns2;
+
+	// assign value to variables
+	mov(96, i32);
+	mov(0, ColCnt);
+
+	// Process
+	// This is very simple, but read it 
+	// need more time.
+	while( i32 > 0 ) do
+		if( ColCnt = 8) then
+			stdout.put(nl);
+			mov(0, ColCnt);
+		endif;
+		stdout.put(i32:5);
+		sub(1, i32);
+		add(1, ColCnt);
+	endwhile;
+	stdout.put(nl);
+
+end NumsInColumns2;

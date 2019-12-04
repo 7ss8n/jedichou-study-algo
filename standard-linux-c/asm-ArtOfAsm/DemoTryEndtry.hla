@@ -1,0 +1,23 @@
+// Code from AOACN.pdf of page 37(55/794).
+// Chapter 1.11 
+// Demo of try...endtry comment.
+
+program testBadInput;
+#include ("stdlib.hhf");
+
+static u: int32;
+
+begin testBadInput;
+	
+	// catch a error
+	try
+		stdout.put("Enter a signed integer:");
+		stdin.get(u);
+		stdout.put("You entered:", u, nl);
+	exception(ex.ConversionError)
+		stdout.put("You input contained illegal character", nl);
+	exception(ex.ValueOutOfRange)
+		stdout.put("The value was too large", nl);
+	endtry;
+
+end testBadInput;

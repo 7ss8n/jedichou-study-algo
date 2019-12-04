@@ -1,0 +1,70 @@
+// Code from AOACN.pdf of page 25(43/794).
+
+program DemoExceptionEndTry;
+#include ("stdlib.hhf");
+
+static
+	GoodInteger: Boolean;
+	i: int32;
+
+begin DemoExceptionEndTry;
+	
+	repeat		
+		mov(false, GoodInteger);
+		try
+			stdout.put("Enter an integer:");
+			stdin.get(i);
+			mov(true, GoodInteger);
+		exception(ex.ConversionError);
+			stdout.put("Illegal numeric value, please re-enter", nl);
+		exception(ex.ValueOutOfRange);
+			stdout.put("Value is out of range, please re-enter", nl);
+		endtry;			
+	until(GoodInteger);
+
+end DemoExceptionEndTry;
+/////////////////////////////////////////////////////////////////////
+// And other exception from Excepts.hhf
+// Reference by AOACN.pdf 26(44/794)
+/////////////////////////////////////////////////////////////////////
+// ex.StringOverflow		试图将过大的字符串存入一个字符串常量
+// ex.StringIndexError		试图访问字符串中不存在的某个字符
+// ex.ValueOutOfRange		当前操作的值过大
+// ex.IllegalChar			遇到字符代码的ASCII码不再0-127之间的操作
+// ex.ConversionError		字符串到数值的转换含有非法的(非数值)字符
+// ex.BadFileHandle			程序试图使用非法的文件句柄值访问某文件
+// ex.FileOpenFailure		操作系统无法打开文件(文件未找到)
+// ex.FileCloseError		操作系统无法关闭文件
+// ex.FileWriteError		写入文件错误
+// ex.FileReadError			读取文件错误
+// ex.DiskFullError			试图向已满的磁盘中写入数据
+// ex.EndOfFile				程序试图读取的文件末尾之外的数据
+// ex.MemoryAllocationFailure 系统没有足够的内存满足分配请求
+// ex.AttemptToDereNULL		程序试图使用NULL指针间接访问数据
+// ex.CannotFreeMemory		释放内存操作失败
+// ex.WidthTooBig			由数值转换为字符串之后的宽度过长
+// ex.TooManyCmdLnParms		命令行含有过多的参数由arg.c和arg.v处理
+// ex.ArrayShapeViolation	试图操作两个维数不一致的数组
+// ex.ArrayBounds			试图访问数组的某个元素，但下标越界
+// ex.InvalidDateFormat		由字符串到日期的转换含有非法字符
+// ex.TimeOverflow			在对时间进行算术运算期间溢出
+// ex.AssertionFailed		ASSERT语句遇到一个错误的断言
+// ex.ExecuteAbstract		试图执行抽象类方法
+// ex.AccessViolation		试图访问某个非法的存储单元
+// ex.Breakpoint			程序执行中断执行(INT3)
+// ex.SingleStep			程序使用跟踪标志集运行
+// ex.PrivInstr				程序试图执行内核专用指令
+// ex.IllegalInstr			程序试图执行某个非法机器指令
+// ex.BoundInstr			用"越界"值执行Bound指令
+// ex.IntoInstr				用溢出标志集执行INTO指令
+// ex.DivideError			程序试图除以0或者其他的除法错误
+// ex.fDenormal				浮点异常
+// ex.fDivByZero			浮点异常
+// ex.fInexactResult		浮点异常
+// ex.fInvalidOperation		浮点异常
+// ex.fOverflow				浮点异常
+// ex.fStackCheck			浮点异常
+// ex.fUnderflow			浮点异常
+// ex.InvalidHandle			操作系统对某个操作报告无效句柄
+// ex.StackOverflow			操作系统报告栈溢出
+

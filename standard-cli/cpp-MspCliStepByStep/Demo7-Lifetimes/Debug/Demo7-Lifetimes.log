@@ -1,0 +1,36 @@
+﻿Build started 2016/1/26 下午 03:20:04.
+     1>Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo7-Lifetimes\Demo7-Lifetimes.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Demo7-Lifetimes.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Demo7-Lifetimes.pch" /Fo"Debug\\" /Fd"Debug\vc90.pdb" /TP /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt stdafx.cpp /d1clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Demo7-Lifetimes.pch" /Fo"Debug\\" /Fd"Debug\vc90.pdb" /TP /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt AssemblyInfo.cpp "Demo7-Lifetimes.cpp" MyClass.cpp /d1clr:nostdlib 
+         AssemblyInfo.cpp
+         Demo7-Lifetimes.cpp
+         MyClass.cpp
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /fo"Debug\app.res" app.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo7-Lifetimes.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Demo7-Lifetimes.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo7-Lifetimes.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         "Debug\Demo7-Lifetimes.obj"
+         Debug\MyClass.obj
+         Debug\stdafx.obj
+         Demo7-Lifetimes.vcxproj -> D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo7-Lifetimes.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo7-Lifetimes.exe;#1" /manifest "Debug\Demo7-Lifetimes.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Demo7-Lifetimes.unsuccessfulbuild".
+         Touching "Debug\Demo7-Lifetimes.lastbuildstate".
+     1>Done Building Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo7-Lifetimes\Demo7-Lifetimes.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.11

@@ -1,0 +1,40 @@
+﻿Build started 2016/1/26 下午 03:20:07.
+     1>Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo-CLRLab\Demo-CLRLab.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Demo-CLRLab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         d:\tool\vs2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Demo-CLRLab.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         d:\tool\vs2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Demo-CLRLab.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "Demo-CLRLab.cpp" /clr:nostdlib 
+         AssemblyInfo.cpp
+         Demo-CLRLab.cpp
+         Generating Code...
+     1>d:\360pan\share\temp-project\microsoft-cli-stepbystep\demo-clrlab\demo-clrlab.cpp(9): warning C4793: 'pow2' : function compiled as native :
+         	Inline native assembly not supported in managed code
+     1>d:\360pan\share\temp-project\microsoft-cli-stepbystep\demo-clrlab\demo-clrlab.cpp(18): warning C4793: 'add2' : function compiled as native :
+         	Inline native assembly not supported in managed code
+     1>d:\360pan\share\temp-project\microsoft-cli-stepbystep\demo-clrlab\demo-clrlab.cpp(28): warning C4793: 'sub2' : function compiled as native :
+         	Inline native assembly not supported in managed code
+         d:\tool\vs2010\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         d:\tool\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo-CLRLab.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Demo-CLRLab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo-CLRLab.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         "Debug\Demo-CLRLab.obj"
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Demo-CLRLab.vcxproj -> D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo-CLRLab.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Debug\Demo-CLRLab.exe;#1" /manifest "Debug\Demo-CLRLab.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Demo-CLRLab.unsuccessfulbuild".
+         Touching "Debug\Demo-CLRLab.lastbuildstate".
+     1>Done Building Project "D:\360pan\share\temp-project\microsoft-CLI-StepByStep\Demo-CLRLab\Demo-CLRLab.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56

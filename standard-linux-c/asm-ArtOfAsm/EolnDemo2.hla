@@ -1,0 +1,18 @@
+// From AOACN.pdf, Page 96
+// Program List 2-12. Use stdin.eoin to test line tail.
+
+program EolnDemo2;
+#include("stdlib.hhf");
+
+begin EolnDemo2;
+
+	stdout.put("Enter a short line of text:");
+	stdin.flushInput();
+
+	repeat
+		stdin.getc();
+		stdout.putc(al);
+		stdout.put("=$", al, nl);
+	until(stdin.eoln());
+
+end EolnDemo2;

@@ -1,0 +1,15 @@
+Program CharVars;
+#include ("stdlib.hhf")
+
+static
+	first:char 	:= 'J';
+	second:char	:= 'e';
+	third:char	:= 'd';
+	fourth:char	:= 'i';
+
+begin CharVars;
+
+	// Output Boolean variables
+	stdout.put("Chars : ", first, second, third, fourth, nl);
+
+end CharVars;

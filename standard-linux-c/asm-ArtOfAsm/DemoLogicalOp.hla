@@ -1,0 +1,47 @@
+// Code from AOACN.pdf of page 62(80/794)
+// Code list 2-5
+//   How to use AND/OR/XOR/NOT statement.
+
+program LogicalOperation;
+#include("stdlib.hhf");
+
+begin LogicalOperation;
+
+	// And
+	stdout.put("First - And Operation", nl);
+	stdout.put("Input left operand:");
+	stdin.get(eax);
+	stdout.put("Input right operand:");
+	stdin.get(ebx);
+	mov(eax, ecx);
+	and(ebx, ecx);
+	stdout.put("$", eax, " AND $", ebx, "=$", ecx, nl, nl);
+
+	// Or
+	stdout.put("Second - Or Operation", nl);
+	stdout.put("Input left operand:");
+	stdin.get(eax);
+	stdout.put("Input right operand:");
+	stdin.get(ebx);
+	mov(eax, ecx);
+	or(ebx, ecx);
+	stdout.put("$", eax, " OR $", ebx, "=$", ecx, nl, nl);
+
+	// Xor
+	stdout.put("Third - Xor Operation", nl);
+	stdout.put("Input left operand:");
+	stdin.get(eax);
+	stdout.put("Input right operand:");
+	stdin.get(ebx);
+	mov(eax, ecx);
+	xor(ebx, ecx);
+	stdout.put("$", eax, " XOR $", ebx, "=$", ecx, nl, nl);
+
+	// Not
+	stdout.put("Fourth - Not Operation", nl);
+	stdout.put("Input an operand:");
+	stdin.get(ebx);
+	not(ebx);
+	stdout.put("Result is $", ebx);
+
+end LogicalOperation;

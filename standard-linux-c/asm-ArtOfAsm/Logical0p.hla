@@ -1,0 +1,30 @@
+program Logical0p;
+#include ("stdlib.hhf")
+
+begin Logical0p;
+
+	// accept left operator, and save it to eax
+	stdout.put("Input left operand:");
+	stdin.get(eax);
+	
+	// accept right operator, and save it to ebx
+	stdout.put("Input right operand:");
+	stdin.get(ebx);
+	
+	// compute 'and' operate, and ouput
+	mov(eax, ecx);
+	and(ebx, ecx);
+	stdout.put("$", eax, " AND $", ebx, "=$", ecx, nl);
+	
+	// compute 'or' operate, and output
+	mov(eax, ecx);
+	or(ebx, ecx);
+	stdout.put("$", eax, " OR $", ebx, "=$", ecx, nl);
+	
+	// compute 'xor' operate, and output
+	mov(eax, ecx);
+	xor(ebx, ecx);
+	stdout.put("$", eax, " XOR $", ebx, "=$", ecx, nl);
+	
+	
+end Logical0p; 
