@@ -30,10 +30,12 @@ void sort(student data[], int n)
 	while (k >= 0) {
 		int i, j;
 		for (i = 1, j = -1; i <= k; i++)
+		{
 			if (data[i-1].height > data[i].height) {
 				j = i - 1;
 				swap(&data[i], &data[j]);
 			}
+		}
 		k = j;
 	}
 }
@@ -44,7 +46,7 @@ int main(void)
 	/* define problem variables */
 	int i;
 	student std[] = {
-	    { "Jedi",  173,  165,   9700 },
+		{ "Jedi",  173,  165,   9700 },
 		{ "Kiwi",  121,  61.0,  0    },
 		{ "Becky", 163,  110.0, 1000 }
 	};
