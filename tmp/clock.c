@@ -2,7 +2,7 @@
  * Copyright (C) 2018 Sangfor Ltd. All rights reserved.
  * Programmer :Linyuanpeng
  * Date       :2018/02/05
- * »ñÈ¡Ãë¼¶£¬ºÁÃë¼¶ºÍÄÉÃë¼¶µÄµ±Ç°Ê±¼ä¡£
+ * è·å–ç§’çº§ï¼Œæ¯«ç§’çº§å’Œçº³ç§’çº§çš„å½“å‰æ—¶é—´ã€‚
  *========================================================================*/
 
 #include<stdio.h>
@@ -11,9 +11,9 @@
 int main()
 {
   struct timeval time_now = {0};
-  long time_sec = 0;  //Ãë
-  long time_mil = 0;  //1ºÁÃë = 1Ãë/1000 
-  long time_mic = 0;  //1Î¢Ãë = 1ºÁÃë/1000
+  long time_sec = 0;  // ç§’
+  long time_mil = 0;  // 1æ¯«ç§’ = 1ç§’/1000 
+  long time_mic = 0;  // 1å¾®ç§’ = 1æ¯«ç§’/1000
 
   gettimeofday(&time_now,NULL);
   time_sec = time_now.tv_sec;
