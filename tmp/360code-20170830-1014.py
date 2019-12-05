@@ -14,6 +14,8 @@ def getD2Sum(x, y, z):
     return p1 + p2 + p3
 
 if __name__ == "__main__":
+    """应该是用来查找100内的勾股数(符合x^2+y^2=z^2)"""
+
     val = range(1, 100)
     xlist, ylist, zlist = val, val, val
     nums = []
