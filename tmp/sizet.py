@@ -14,4 +14,3 @@ def disk_useage(path):
 if __name__ == "__main__":
     size = disk_useage("/mnt/d/workspace/prototype/")
     print(size)
-
