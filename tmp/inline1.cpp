@@ -1,3 +1,5 @@
+// Description: 内联示例
+
 #include <iostream>
 using namespace std;
 inline int func(int);

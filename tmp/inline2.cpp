@@ -1,4 +1,5 @@
-// use inline at class's method
+// Description: use inline at class's method
+
 #include <iostream>
 using namespace std;
 
